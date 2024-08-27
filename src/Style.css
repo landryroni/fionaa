@@ -1,0 +1,611 @@
+body {
+    padding-top: 80px;
+    word-wrap: break-word;
+    max-width: auto;
+}
+#Top {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 100%;
+    /* text-align: center; */
+}
+
+#top-left {
+    font-size: medium;
+    font-style: italic;
+    margin-left: 280px;
+    margin-right: 260Px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+#top-right {
+    display: flex;
+    margin-right: 100px;
+
+}
+
+.option {
+    display: flex;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.position {
+    margin-right: 30px;
+}
+
+.phonecall {
+    display: flex;
+    width: 60;
+    height: 20;
+    color: blue;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 1;
+    font-style: normal;
+}
+
+.text {
+    text-align: center;
+    color: darkgrey;
+}
+
+/* #Field-picture {
+    margin-bottom: 10px;
+} */
+
+
+.picture-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 90%;
+    max-width: 1190px;
+    height: 592px;
+    margin: auto;
+}
+
+.picture {
+    /* border: 1px solid #ccc; */
+    overflow: hidden;
+    background-color: white;
+    /* width: 280px;
+    height: 210px; */
+    /* margin-bottom: 10px; */
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.picture img {
+    width: 100%;
+    height: 70%;
+    display: block;
+}
+
+.subtitle {
+    padding: 10px;
+    background-color: white;
+    font-size: 10px;
+    /* border-top: 1px solid #ccc; */
+    font-weight: bold;
+    font-style: normal;
+}
+
+.button-cs{
+    text-align: center;
+}
+
+.button-checkmore-services {
+    display: inline-block;
+    cursor:pointer;
+    border: 5cap;
+    margin-bottom: 40px;
+}
+
+
+#company-profile {
+    display: flex;
+    width: 1339;
+    height: 444;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    
+}
+
+#profile {
+    max-width: 400px;
+    height: 444px;
+    margin: 0px 60px;
+    display: block;
+    margin-left: 320px;
+}
+
+.presentation {
+    width: 350px;
+}
+
+#button-chekmore-profile {
+    border: 0cap;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    width:200px;
+    height: 40px;
+
+}
+
+#PROFESSIONAL {
+    /* margin: 10px 40px 40px; */
+    width: 100%;
+    height: 514px;
+    width: 1339px;
+    text-align: center;
+}
+
+.Professional {
+    position: relative;
+    /* display: flex; */
+    height: 514px;
+    width: 1339px;
+    text-align: center;
+}
+
+
+
+.background-image {
+    object-fit: cover;
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+
+.overlay-input {
+    position: absolute;
+    transform: translate(-35%, -10%);
+    display: block;
+    margin-top: 100px ;
+    right: 10%;
+    /* bottom: -10px; */
+    /* top: 20%; */
+    background-color: white;
+    height: 367px;
+    width: 350px;
+    text-align: center;
+
+    
+}
+
+.professional-mark {
+    margin-left: 275px;
+    /* text-align: center; */
+
+}
+.information {
+    display: block;
+    width: 350px;
+    height: 297px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.insert-your-details {
+    font-size: 1.25rem;
+    max-width: auto;
+ }
+
+.enter {
+    margin: 20px auto 20px 20px;
+    height: 80%;
+    width: auto;
+}
+
+.query-button {
+    border: 0cap;
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+
+}
+
+#Input {
+    border: 0cap;
+    width:Auto;
+    height: 60px;
+}
+
+.star {
+    color: orange;
+}
+
+#Question-Response-Section {
+     display: block;
+    font-size: 1em;
+    width: 100%;
+    position: relative;
+    overflow-y: visible;
+    margin-left: 0px;
+}
+
+
+.Frequently-asked-questions-title {
+    text-align: center;
+    padding-top: 2.875em;
+    padding-bottom: 2.875em;
+    width: 74.375em;
+    display: block;
+    font-size: 20px;
+    background-color: white;
+    margin-left: 100px;
+}
+
+.question-answer-block {  
+    display: block;
+    font-size: 1em;
+    width: 1190px;
+    position: relative;
+    height: auto;
+    zoom: 1;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.sub-question-answer-block {
+    position: relative;
+    display: block;
+    font-size: 1em;
+    box-sizing: border-box;
+    width: 1190px;
+    height: auto;
+    text-align: center;
+    margin-left: 16em;
+}
+
+.question-block {
+    width: 28.375em;
+    min-height: 19.5625em;
+    box-sizing: border-box;
+    display: block;
+    /* text-align: center; */
+    background-color: #f8f8f8;
+    padding: 16px 0 16px 20px;
+}
+
+.question-odering {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    padding-inline-start: 40px;
+    display: block;
+    font-size: 1em;
+}
+
+.question-line {
+    display: flex;
+    flex-direction: row;
+    padding: 13px 21px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 0.5625em;
+}
+
+
+.Questiondiv {
+    padding-left: 1.125em;
+    line-height: 28px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.questions-answer-together {
+    width: 46em;
+    margin-left: 28.375em; 
+    position: absolute;
+    height: auto;
+    top: 0px;
+    text-align: left;
+    padding:  33px 45px 40px 42px;
+    background-color: #fff;
+    display: block;
+}
+
+
+
+.asked-questions {
+    position: relative;
+    display: flex;
+    width: 40.5em;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.ask {
+    line-height: 2em;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    font-size: 18px;
+    background-color: #c2d1ed;
+    color: #0450ba;
+}
+
+.single-question {
+    padding-left: 20px;
+    font-size: 21px;
+    text-align: justify;
+    margin-left: 0.7142em;
+    line-height: 1.3809em;
+    padding-top: 0.1910em;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    width: 28.4285em;
+    /* -webkit-line-clamp:  ; */
+    -webkit-box-orient: vertical;
+}
+
+.replied {
+    display: flex;
+    margin-bottom: 40px;
+    width: 40.5em;
+    top: 6.25em;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.resp {
+    line-height: 2em;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    font-size: 18px;
+    background-color:  #0450ba;
+    color:#fff;
+}
+
+.single-response {
+    width: 33.16em;
+    margin-top: 0em;
+    margin-left: -14em; 
+    text-align: justify;
+    line-height: 2;
+    font-size: 18px;
+    color: #333333;
+    display: block;
+    word-wrap: break-word;
+    /* margin: 1em 0px; */
+    font-family: monospace;
+}
+
+.check-all {
+    width: 37.3125em;
+    height: 8.4375em;
+    right: 2.9375em;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(180dreg, rgb(255,255,255,0),0%, #ffffff 66%);
+    display: block;
+}
+
+.watchall {
+    position: absolute;
+    /* bottom: 1.5625em;  */
+    bottom: -15.5625em;
+    left: 15.4375em;
+    display:block;
+}
+
+.readall {
+    color: #0450ba;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+    font-style: normal;
+    font-family: "icon-arrow" !important;
+
+}
+
+
+#Question-answer-button {
+    width: 30.625em;
+    margin: 41px auto;
+    overflow-y: visible;
+    font-size: 1em;
+}
+
+.question-answer-button-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+.button-check-all-answer {
+    background-color:#fff ;
+    color: #666;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #d8d8d8;
+}
+
+button[type="button"]:hover {
+    caret-color: #1c59a8;
+    background-color: #0450ba;
+    color: #fff;    
+}
+
+.contact-container {
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+    zoom: 1;
+    display: block;
+
+}
+
+.contact-us-container-hurdle {
+    height: 27.75em;
+    /* width: auto;
+     */
+     width: 1339px;
+    background-position: center;
+    background-size: auto 100%;
+    padding: 40px 0;
+    display: flex;
+    margin: 0 auto;
+    justify-content: left;
+    max-width: 1420px;
+    border-radius: 1%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.contact-us-location {
+    display: flex;
+    max-width: 32.8125em;
+    margin-top: 50px;
+}
+
+.info {
+    margin-bottom: 4px;
+}
+
+
+.itemlabel {
+    max-width: 85%;
+    min-width: 15.5%;
+    width: 15.3125em;
+    /* margin-right: 0.3125em; */
+    margin-right: 0px;
+    opacity: 0.8;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.info-list-span {
+    margin-top: -0.25em;
+    margin-bottom: 1.25em;
+    line-height: 1.5;
+    width: 100%;
+    display: inline-block;
+}
+
+.nm {
+    display: flex;
+    /* margin-top: 0; */
+    line-height: 1;
+}
+
+.location {
+    height: 14.5em;
+    max-width: 39.75em; 
+    margin-left: 3.125em;
+    /* overflow: hidden; */
+}
+
+.divspan {
+    max-width: 85%;
+    min-width: 15.5%;
+    display: block;
+    margin: 0;
+}
+
+
+#m-loki-row-sub-container {
+    width: 100%;
+    position: relative;
+    height: auto;
+    zoom: 1;
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#m-loki-child-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-guarantee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1.875em;
+    margin-left: 300px;
+    width: 1339px;
+}
+
+.bottom-alert  {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    margin-right: 5em;
+}
+
+.guarantee {
+    margin-left: 0.8125em;
+    padding: 6px;
+}
+
+.guarantee-item {
+    font-weight: bold;
+    font-size: 0.9375em;
+    margin-bottom: 0.375em;
+}
+
+.guarantee-details {
+    color: #666;
+    font-size: 0.75em;
+}
+
+
+.footer-menu {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+
+}
+
+.footer-top-head {
+    padding-right: 3.125em;
+    padding-left: 3.125em;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    color: #666;
+    margin: 0px 15px 0px 15px;
+}
+
+#Footer {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footerinfo {
+    color: #666;
+    margin-left: 10px;
+    font-size: x-small;
+}
